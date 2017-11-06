@@ -36,6 +36,6 @@ php artisan vendor:publish --tag=any
 
 
 ## 建议和反馈
-`Any` 发展离不开大家的反馈和建议，如果大家有什么想法可以直接在 [https://github.com/lanceWan/any/issues](https://github.com/lanceWan/any/issues) 中提出，谢谢。
+`Any` 发展离不开大家的反馈和建议，如果大家有什么想法可以直接在 [https://github.com/lanceWan/any-repository/issues](https://github.com/lanceWan/any-repository/issues) 中提出，谢谢。
 
 Laravel学习交流群：`312621686`
