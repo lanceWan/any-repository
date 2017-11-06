@@ -1,0 +1,33 @@
+<?php
+
+namespace DummyNamespace;
+
+use Iwanli\Repository\Eloquent\BaseRepository;
+use DummyModel;
+
+/**
+ * Class DummyClass
+ * @package namespace DummyNamespace;
+ */
+class DummyClassRepository extends BaseRepository
+{
+    /**
+     * Specify Model class name
+     *
+     * @return string
+     */
+    public function model()
+    {
+        return DummyClass::class;
+    }
+
+    
+
+    /**
+     * Boot up the repository, pushing criteria
+     */
+    public function boot()
+    {
+        
+    }
+}

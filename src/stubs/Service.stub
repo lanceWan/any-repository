@@ -1,0 +1,15 @@
+<?php
+namespace DummyNamespace;
+
+use Facades\ {
+
+};
+
+class DummyClassService {
+	
+	public function __construct()
+	{
+		
+	}
+	
+}

@@ -1,0 +1,29 @@
+{
+    "name": "iwanli/any",
+    "description": "laravel 5.5 repository",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "晚黎",
+            "email": "iwanli666@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    	"php": ">=5.6.32",
+        "illuminate/support": "~5"
+    },
+    "autoload": { 
+        "psr-4": {
+            "Iwanli\\Repository\\": "src/"
+        } 
+    },
+    "extra": {
+	    "laravel": {
+	    	"providers": [
+	    		"Iwanli\\Repository\\RepositoryServiceProvider"
+	    	]
+	    }
+  	},
+}
